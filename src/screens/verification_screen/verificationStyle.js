@@ -33,5 +33,8 @@ export const verificationStyle = StyleSheet.create({
   },
   keyboardRow: {
     flexDirection: 'row'
+  },
+  code: {
+    fontSize: 24
   }
 });

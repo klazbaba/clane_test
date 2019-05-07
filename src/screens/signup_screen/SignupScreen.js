@@ -3,7 +3,7 @@ import { View, Image, SafeAreaView } from 'react-native';
 
 import { signupStyle } from './signupStyle';
 import CustomText from '../../components/customText/CustomText';
-import { CustomInput } from '../../components/customInput/CustomInput';
+import CustomInput from '../../components/customInput/CustomInput';
 import CustomButton from '../../components/customButton/CustomButton';
 import { color } from '../../color';
 
