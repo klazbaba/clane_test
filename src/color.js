@@ -1,5 +1,6 @@
 export const color = {
   white: 'white',
   blue: 'mediumblue',
-  slateblue: 'slateblue'
+  slateblue: 'slateblue',
+  mediumslateblue: 'mediumslateblue'
 };

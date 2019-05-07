@@ -10,5 +10,5 @@ export default function CustomText(props) {
 
 CustomText.propTypes = {
   text: PropTypes.string.isRequired,
-  style: PropTypes.object
+  style: PropTypes.oneOfType([PropTypes.object, PropTypes.arrayOf(PropTypes.object)])
 };
