@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
+import { ScrollView, View } from 'react-native';
 
 import { verificationStyle } from './verificationStyle';
 import CustomText from '../../components/customText/CustomText';
@@ -38,7 +38,10 @@ export default class VerificationScreen extends Component {
     } = this.state;
 
     return (
-      <View style={verificationStyle.container}>
+      <ScrollView
+        style={verificationStyle.container}
+        contentContainerStyle={verificationStyle.scrollContainer}
+      >
         <CustomText
           text="Please enter the code we sent you to verify your phone number."
           style={verificationStyle.text}
@@ -96,7 +99,7 @@ export default class VerificationScreen extends Component {
         <View style={verificationStyle.keyboardRow}>{this.renderKeyboardSecondRow()}</View>
         <View style={verificationStyle.keyboardRow}>{this.renderKeyboardThirdRow()}</View>
         <View style={verificationStyle.keyboardRow}>{this.renderKeyboardFourthRow()}</View>
-      </View>
+      </ScrollView>
     );
   }
 

@@ -4,9 +4,7 @@ import { color } from '../../color';
 export const verificationStyle = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: color.blue,
-    padding: 24,
-    alignItems: 'center'
+    backgroundColor: color.blue
   },
   text: {
     textAlign: 'center'
@@ -36,5 +34,9 @@ export const verificationStyle = StyleSheet.create({
   },
   code: {
     fontSize: 24
+  },
+  scrollContainer: {
+    padding: 24,
+    alignItems: 'center'
   }
 });
